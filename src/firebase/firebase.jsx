@@ -21,10 +21,3 @@ const firestore = getFirestore(app)
 const storage = getStorage(app)
 
 export {app,auth,firestore,storage}
-
-//   apiKey: "AIzaSyBtx7LGWbSfwSZmaKIDm60bV31Dj_5o738",
-  // authDomain: "fir-90c38.firebaseapp.com",
-  // projectId: "fir-90c38",
-  // storageBucket: "fir-90c38.appspot.com",
-  // messagingSenderId: "200416828524",
-  // appId: "1:200416828524:web:ec98338d383f920b62cc49"
