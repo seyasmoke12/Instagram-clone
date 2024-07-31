@@ -52,7 +52,7 @@ const CreatePost = () => {
 					justifyContent={{ base: "center", md: "flex-start" }}
 					onClick={onOpen}
 				>
-					<FaPlusCircle size={25} />
+					<FaPlusCircle size={18} />
 					<Box display={{ base: "none", md: "block" }}>Create</Box>
 				</Flex>
 			</Tooltip>

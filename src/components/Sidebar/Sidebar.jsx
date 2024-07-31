@@ -23,7 +23,7 @@ const {isLogingOut,handleLogout} = useLogout()
 return (
     <Box height={"100vh"} borderRight={"1px solid"}
     borderColor={"whiteAlpha.300"}
-    py={8}
+    py={5}
     position={"sticky"}
     top={0}
     left={0}
@@ -62,7 +62,7 @@ return (
                         borderRadius={6}
                         p={2}
                         w={{base:10,md:'full'}}
-                        mt={40}
+                        mt={20}
                         justifyContent={{base:"center",md:"flex-start"}}
                         
                         >

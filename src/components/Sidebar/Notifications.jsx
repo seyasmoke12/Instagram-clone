@@ -7,6 +7,7 @@ return (
 			hasArrow
 			label={"Notifications"}
 			placement='right'
+			
 			ml={1}
 			openDelay={500}
 			display={{ base: "block", md: "none" }}
@@ -20,7 +21,7 @@ return (
 				w={{ base: 10, md: "full" }}
 				justifyContent={{ base: "center", md: "flex-start" }}
 			>
-				<IoIosNotifications size={25}/>
+				<IoIosNotifications size={20}/>
 				<Box display={{ base: "none", md: "block" }}>Notifications</Box>
 			</Flex>
 		</Tooltip>
